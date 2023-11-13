@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression Test Suite">
+
+<groups>
+
+        <run>
+            <include name="regression"/>
+        </run>
+
+</groups>
+    <!-- my branch change -->
+    <test name="All UI tests">
+
+        <packages>
+            <package name="testcase"/>
+        </packages>
+
+
+    </test>
+
+
+</suite>
